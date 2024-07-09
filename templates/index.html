@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RechFarm - Home</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="navTop">
+      <div class="logo">
+        <h1>RechFarm</h1>
+      </div>
+      <div class="search">
+        <input type="text" class="searchInput" placeholder="Search for produce...">
+      </div>
+    </div>
+    <div class="navBottom">
+      <div class="menuItem">Home</div>
+      <div class="menuItem">About</div>
+      <div class="menuItem">Products</div>
+      <div class="menuItem">Contact</div>
+    </div>
+  </nav>
+
+  <!-- Slider Section -->
+  <section class="slider">
+    <div class="sliderWrapper">
+      <div class="sliderItem">
+        <div class="sliderBg"></div>
+        <img src="product1.jpg" alt="Product Image" class="sliderImg">
+        <div class="sliderTitle">Fresh Produce</div>
+        <div class="sliderPrice">$10/kg</div>
+        <button class="buyButton">Buy Now</button>
+      </div>
+      <!-- Additional Slider Items -->
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature">
+      <img src="icon1.png" alt="Feature Icon" class="featureIcon">
+      <h3 class="featureTitle">High Quality</h3>
+      <p class="featureDesc">Our produce is of the highest quality, sourced from local farms.</p>
+    </div>
+    <div class="feature">
+      <img src="icon2.png" alt="Feature Icon" class="featureIcon">
+      <h3 class="featureTitle">Affordable Prices</h3>
+      <p class="featureDesc">We offer competitive prices for all our products.</p>
+    </div>
+    <!-- Additional Features -->
+  </section>
+
+  <!-- Products Section -->
+  <section class="product">
+    <img src="product2.jpg" alt="Product Image" class="productImg">
+    <div class="productDetails">
+      <h2 class="productTitle">Product Name</h2>
+      <p class="productDesc">Description of the product.</p>
+      <div class="colors">
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+      <div class="sizes">
+        <div class="size">S</div>
+        <div class="size">M</div>
+      </div>
+      <button class="productButton">Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footerLeft">
+      <div>
+        <h3 class="fMenuTitle">Company</h3>
+        <ul class="fList">
+          <li class="fListItem">About Us</li>
+          <li class="fListItem">Contact</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="fMenuTitle">Support</h3>
+        <ul class="fList">
+          <li class="fListItem">FAQ</li>
+          <li class="fListItem">Help Center</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerRight">
+      <input type="email" placeholder="Subscribe to newsletter" class="fInput">
+      <button class="fButton">Subscribe</button>
+      <div class="fIcons">
+        <img src="facebook-icon.png" alt="Facebook" class="fIcon">
+        <img src="twitter-icon.png" alt="Twitter" class="fIcon">
+      </div>
+    </div>
+  </footer>
+
+  <!-- Payment Modal -->
+  <div class="payment">
+    <span class="close">&times;</span>
+    <h2 class="payTitle">Payment Details</h2>
+    <label for="cardName">Name on Card</label>
+    <input type="text" id="cardName" class="payInput" placeholder="John Doe">
+    <label for="cardNumber">Card Number</label>
+    <input type="text" id="cardNumber" class="payInput" placeholder="1234 5678 9012 3456">
+    <div class="cardInfo">
+      <div class="sm">
+        <label for="expDate">Expiry Date</label>
+        <input type="text" id="expDate" class="payInput" placeholder="MM/YY">
+      </div>
+      <div class="sm">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" class="payInput" placeholder="123">
+      </div>
+    </div>
+    <button class="payButton">Pay Now</button>
+  </div>
+
+  <script>
+    // Add any JavaScript functionality here
+  </script>
+</body>
+</html>
